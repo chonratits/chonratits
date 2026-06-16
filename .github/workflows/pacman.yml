@@ -1,0 +1,30 @@
+name: Generate Pac-Man Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate Pac-Man SVG
+        uses: buluma/github-action-pacman@v0.0.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: chonratits
+          BACKGROUND_COLOR: "#0d1117"
+          SNAKE_COLOR: "#FFD700"
+          FOOD_COLOR: "#7c3aed"
+          OUTPUT_DIRECTORY: "dist"
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
