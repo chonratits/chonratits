@@ -9,17 +9,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-
       - name: Generate Pac-Man SVG
-        uses: buluma/github-action-pacman@v0.0.1
+        uses: Platane/snk@v3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USER: chonratits
-          BACKGROUND_COLOR: "#0d1117"
-          SNAKE_COLOR: "#FFD700"
-          FOOD_COLOR: "#7c3aed"
-          OUTPUT_DIRECTORY: "dist"
+          github_user_name: chonratits
+          outputs: |
+            dist/pacman.svg?type=pacman&color_snake=#FFD700&color_dots=#7c3aed,#6d28d9,#5b21b6
+            dist/pacman-dark.svg?type=pacman&color_snake=#FFD700&color_dots=#7c3aed,#6d28d9,#5b21b6&color_empty=#0d1117
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
