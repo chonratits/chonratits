@@ -97,14 +97,6 @@ me.say_hi()
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-trophies.vercel.app/?username=chonratits&theme=tokyonight&no-frame=true&column=4" />
-</div>
-
----
-
 ## 📈 Contribution Graph
 
 <div align="center">
