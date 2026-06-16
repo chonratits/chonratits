@@ -27,7 +27,6 @@ class Developer:
         self.username   = "chonratits"
         self.location   = "Thailand 🇹🇭"
         self.company    = "Firsys Company Limited"
-        self.role       = "Full-Stack Developer"
         self.languages  = ["Python", "C#", "C++", "C", "Java",
                            "Node.js", "HTML/CSS", "JavaScript",
                            "TypeScript", "SQL", "Bash"]
