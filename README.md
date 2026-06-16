@@ -100,7 +100,7 @@ me.say_hi()
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=chonratits&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" />
+  <img src="https://github-trophies.vercel.app/?username=chonratits&theme=tokyonight&no-frame=true&column=4" />
 </div>
 
 ---
