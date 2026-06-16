@@ -117,18 +117,6 @@ me.say_hi()
 
 ---
 
-## 👾 Pac-Man Contribution Graph
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chonratits/chonratits/output/pacman-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chonratits/chonratits/output/pacman.svg" />
-    <img alt="pacman" src="https://raw.githubusercontent.com/chonratits/chonratits/output/pacman.svg" />
-  </picture>
-</div>
-
----
-
 ## 💼 Currently @ Firsys Company Limited
 
 > Building robust, scalable systems and delivering full-stack solutions that make a real impact. Passionate about clean architecture, performance, and writing code that lasts.
